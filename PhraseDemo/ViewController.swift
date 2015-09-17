@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         mTitle.text = Phrase.from("TITLE").description
         
-        mYourName.text = Phrase.from("YOUR_NAME")
-            .put("yourName", value: "Njai")
+        mYourName.text = Phrase.from("MY_NAME")
+            .put("myName", value: "Njai")
             .fomat().description
     }
 
